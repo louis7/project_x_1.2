@@ -30,14 +30,9 @@ componentDidMount() {
     return Number(format_number).toLocaleString()
   }
 
-  let url= 'https:pro-api.coinmarketcap.com/v1/global-metrics/quotes/latest'
-  let config = {
-        headers:  {
-                'X-CMC_PRO_API_KEY':'c8f0c798-3fe8-4a70-9b5a-5aa85d519997',
+  let url= 'https://blockcoinx.com/api'
 
-              }
-            }
-    axios.get(url, config)
+    axios.get(url)
       .then(res => {
 
         this.setState({

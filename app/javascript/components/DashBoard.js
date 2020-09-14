@@ -30,7 +30,7 @@ componentDidMount() {
     return Number(format_number).toLocaleString()
   }
 
-  let url= 'https://blockcoinx.com/api'
+  let url= 'http://blockcoinx.com/api'
 
     axios.get(url)
       .then(res => {

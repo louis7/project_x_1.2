@@ -9,6 +9,8 @@ gem 'react-rails', '~> 2.6', '>= 2.6.1'
 gem 'webpacker', '~> 5.1', '>= 5.1.1'
 # alternative to Faraday
 gem 'httparty', '~> 0.18.1'
+# this will help with the cors issue
+gem 'rack-cors', '~> 1.1', '>= 1.1.1'
 
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

@@ -8,7 +8,7 @@ gem 'react-rails', '~> 2.6', '>= 2.6.1'
 # Use Webpack to manage app-like JavaScript modules in Rails || run rails webpacker:install
 gem 'webpacker', '~> 5.1', '>= 5.1.1'
 # alternative to Faraday
-gem 'httparty', '~> 0.18.1'
+gem 'httparty', '~> 0.21.0'
 # this will help with the cors issue
 gem 'rack-cors', '~> 1.1', '>= 1.1.1'
 
